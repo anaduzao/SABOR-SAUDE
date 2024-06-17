@@ -1,2 +1,12 @@
-header{ background-color: #465a2b;}
-    
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+header{
+    background-color: darkseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 05px;
+}
