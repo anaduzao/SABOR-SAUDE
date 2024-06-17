@@ -10,3 +10,16 @@ header{
     justify-content: space-between;
     padding: 05px;
 }
+
+section{
+    display: flex;
+    align-items: center;
+    background-color: darkseagreen;
+    color: dimgray;
+    margin: 05px 0;
+    padding: 10px 20px;
+}
+
+div{
+    padding: 30px;
+}
