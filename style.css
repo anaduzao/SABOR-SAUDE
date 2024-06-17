@@ -4,9 +4,9 @@
 }
 
 header{
-    background-color: rgb(35, 206, 135);
+    background-color: #c2e0bd;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 05px;
 }
