@@ -14,7 +14,7 @@ header{
 section{
     display: flex;
     align-items: center;
-    background-color: rgb(35, 206, 135);
+    background-color: mediumseagreen;
     color: dimgray;
     margin: 05px 0;
     padding: 10px 20px;
