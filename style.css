@@ -9,6 +9,16 @@ header{
     align-items: flex-start;
     justify-content: space-between;
     padding: 05px;
+    display:flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-around;
+    background-color: #c2e0bd;
+    color: darkgray;
+    position: relative;
+    .img-logo{
+        width: 13%;
+    }
 }
 
 section{
@@ -30,15 +40,6 @@ body{
 
 *{
     margin: 0;
-}
-header{
-    display:flex;
-    align-items: center;
-    padding: 12px;
-    justify-content: space-around;
-    background-color: #c2e0bd;
-    color: darkgray;
-    position: relative;
 }
 
 ul li{
