@@ -8,7 +8,7 @@ header{
     align-items: flex-start;
     justify-content: space-between;
     padding: 05px;
-    display: none;
+    display: flex;
     align-items: center;
     padding: 12px;
     justify-content: space-around;
