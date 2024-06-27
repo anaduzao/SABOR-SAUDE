@@ -24,8 +24,8 @@ header{
 section{
     display: flex;
     align-items: normal;
-    background-color: #bdecb6;
-    color: dimgray;
+    background-color: #fbf7f6;
+    color: rgb(100, 100, 100);
     margin: 05px 0;
     padding: 10px 20px;
 }
