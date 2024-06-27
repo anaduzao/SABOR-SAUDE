@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: #c2e0bd;
+    background-color: #fbf7f6;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -13,8 +13,8 @@ header{
     align-items: center;
     padding: 12px;
     justify-content: space-around;
-    background-color: #c2e0bd;
-    color: darkgray;
+    background-color: #fbf7f6;
+    color: #fbf7f6;
     position: relative;
     .img-logo{
         width: 20%;
@@ -35,7 +35,7 @@ div{
 }
 
 body{
-    background-color: #bdecb6;
+    background-color: #fbf7f6;
 }
 
 *{
