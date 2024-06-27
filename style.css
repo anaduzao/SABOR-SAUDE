@@ -18,6 +18,7 @@ header{
     position: relative;
     .img-logo{
         width: 40%;
+        align-items: flex-start;
     }
 }
 
