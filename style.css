@@ -23,7 +23,7 @@ header{
 
 section{
     display: flex;
-    align-items: flex-end;
+    align-items: normal;
     background-color: #bdecb6;
     color: dimgray;
     margin: 05px 0;
