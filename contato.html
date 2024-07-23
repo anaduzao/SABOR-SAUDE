@@ -3,46 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos Naturais - Contatos</title>
+    <title>Aba de Contatos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Minha Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#" class="active">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Produtos Naturais</h1>
-    <nav>
+    <section class="contatos">
+        <h2>Informações de Contato</h2>
+        <p>Entre em contato conosco pelos seguintes meios:</p>
         <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="contatos.html">Contatos</a></li>
+            <li>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></li>
+            <li>Telefone: <a href="tel:+55123456789">(12) 3456-7890</a></li>
+            <li>Endereço: Rua Exemplo, 1234 - Cidade Exemplo</li>
         </ul>
-    </nav>
-</header>
-
-<main>
-    <section id="contatos">
-        <h2>Entre em Contato Conosco</h2>
-        <p>Estamos disponíveis para ajudar. Envie-nos uma mensagem e responderemos em breve.</p>
-        
-        <form action="enviar.php" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-            
-            <button type="submit">Enviar Mensagem</button>
-        </form>
     </section>
-</main>
 
-<footer>
-    <p>&copy; 2024 Produtos Naturais. Todos os direitos reservados.</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
