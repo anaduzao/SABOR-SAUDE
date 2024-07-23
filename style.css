@@ -141,14 +141,12 @@ footer {
     background: #333;
     color: white;}
 
- /* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -186,7 +184,7 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    color: yellow; /* Cor da aba ativa */
+    color: yellow; 
 }
 
 .contatos {
