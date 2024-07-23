@@ -141,4 +141,84 @@ footer {
     background: #333;
     color: white;}
 
+ /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    color: yellow; /* Cor da aba ativa */
+}
+
+.contatos {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contatos h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contatos p {
+    color: #666;
+}
+
+.contatos ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.contatos ul li {
+    margin-bottom: 8px;
+}
+
+.contatos ul li a {
+    color: #007bff; /* Cor do link */
+    text-decoration: none;
+}
+
  
