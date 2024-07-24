@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #414141;
+    color: #363636;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,7 @@ nav ul li a.active {
 footer {
     margin-top: 20px;
     text-align: center;
-    color: #666;
+    color: #363636;
 }
 
 /* Estilos para abas */
