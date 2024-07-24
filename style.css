@@ -50,7 +50,6 @@ footer {
     color: #363636;
 }
 
-/* Estilos para abas */
 .aba {
     background-color: #fff;
     padding: 20px;
@@ -79,7 +78,7 @@ footer {
 }
 
 .aba ul li a {
-    color: #007bff; /* Cor do link */
+    color: #007bff; 
     text-decoration: none;
 }
 
