@@ -113,6 +113,16 @@ form button:hover {
     font-weight: bold;
 }
 
+.produto img {
+    width: 100px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.produto p {
+    font-size: 50px; /* Ajuste o valor conforme necessário */
+}
+
+
 footer {
     background-color: #234f24;
     color: white;
