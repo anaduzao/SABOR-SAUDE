@@ -98,6 +98,9 @@ form button:hover {
     line-height: 1.5;
 }
 
+.texto-1 p {
+    align-items: center;
+}
 
 footer {
     background-color: #234f24;
