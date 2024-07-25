@@ -82,7 +82,7 @@ form button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px; /* Espaço entre a imagem e o texto */
+    gap: 50px; /* Espaço entre a imagem e o texto */
     margin: 20px 0;
 }
 
