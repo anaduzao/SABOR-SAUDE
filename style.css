@@ -1,9 +1,14 @@
 /* Estilos gerais para o corpo do texto */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #d6cdcd;
+    display: flex;
+    flex-direction: column;
     line-height: 1.6;
 }
 
@@ -44,7 +49,9 @@ header nav ul li a {
 
 /* Estilo para o conteúdo principal */
 main {
+    flex: 1;
     padding: 2.5rem; /* Aumentado o padding */
+    padding-bottom: 4rem; /* Adicionado padding para espaço inferior */
 }
 
 /* Estilo para a seção Sobre */
@@ -144,12 +151,11 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5rem; /* Aumentado o padding */
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-    margin: 0;
+    margin: 0.5rem 0;
 }
