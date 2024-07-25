@@ -1,4 +1,3 @@
-/* Estilos gerais para o corpo do texto */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,11 +6,10 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo para o cabeçalho */
 header {
     background-color: #234f24;
     color: white;
-    padding: 1.5rem; /* Aumentado o padding */
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -27,7 +25,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 15px; /* Aumentado o espaçamento entre itens */
+    margin: 0 15px;
 }
 
 header nav ul li a {
@@ -36,91 +34,97 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Estilo para o conteúdo principal */
-main {
-    padding: 2.5rem; /* Aumentado o padding */
+@media only screen and (max-width: 600px) {
+    header {
+        text-align: left; 
+    }
+
+    header nav ul {
+        justify-content: flex-start; 
+    }
 }
 
-/* Estilo para a seção Sobre */
+main {
+    padding: 2.5rem;
+}
+
 #sobre {
     max-width: 800px;
     margin: 0 auto;
 }
 
 #sobre h2 {
-    font-size: 30px; /* Aumentado o tamanho da fonte */
+    font-size: 30px;
     color: #333;
-    margin-bottom: 25px; /* Aumentada a margem inferior */
+    margin-bottom: 25px;
 }
 
 #sobre p {
-    font-size: 20px; /* Aumentado o tamanho da fonte */
+    font-size: 20px;
     color: #666;
-    margin-bottom: 20px; /* Aumentada a margem inferior */
+    margin-bottom: 20px;
 }
 
-/* Estilo para a seção Produto */
 .produto {
     border: 1px solid #ddd;
-    margin: 2rem 0; /* Aumentada a margem superior e inferior */
-    padding: 1.5rem; /* Aumentado o padding */
+    margin: 2rem 0;
+    padding: 1.5rem;
     background-color: white;
     border-radius: 5px;
 }
 
 .produto img {
-    width: 220px; /* Aumentado o tamanho da imagem */
+    width: 220px;
     height: auto;
     display: block;
-    margin-bottom: 1.5rem; /* Aumentada a margem inferior */
+    margin-bottom: 1.5rem;
 }
 
 .produto p {
-    font-size: 22px; /* Aumentado o tamanho da fonte */
+    font-size: 22px;
 }
 
-/* Estilo para a imagem e texto principais */
 .imagem-texto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px; /* Aumentado o espaço entre imagem e texto */
-    margin: 30px 0; /* Aumentada a margem superior e inferior */
+    gap: 30px;
+    margin: 30px 0;
 }
 
 .imagem-texto img {
-    max-width: 350px; /* Aumentado o tamanho máximo da imagem */
+    max-width: 350px;
     height: auto;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .imagem-texto p {
     margin: 0;
-    font-size: 20px; /* Aumentado o tamanho da fonte */
-    line-height: 1.6; /* Ajustado o espaçamento entre linhas */
-    text-align: center; /* Centralizado o texto */
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
 }
 
-/* Estilo para o formulário */
 form {
     display: flex;
     flex-direction: column;
 }
 
 form label {
-    margin-top: 1.5rem; /* Aumentada a margem superior */
+    margin-top: 1.5rem;
 }
 
-form input, form textarea {
-    margin-top: 1rem; /* Aumentada a margem superior */
-    padding: 0.75rem; /* Aumentado o padding */
+form input,
+form textarea {
+    margin-top: 1rem;
+    padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 form button {
-    margin-top: 1.5rem; /* Aumentada a margem superior */
-    padding: 0.75rem; /* Aumentado o padding */
+    margin-top: 1.5rem;
+    padding: 0.75rem;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -132,12 +136,11 @@ form button:hover {
     background-color: #45a049;
 }
 
-/* Estilo para o rodapé */
 footer {
     background-color: #234f24;
     color: white;
     text-align: center;
-    padding: 1.5rem; /* Aumentado o padding */
+    padding: 1.5rem;
     position: relative;
     width: 100%;
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
@@ -145,14 +148,14 @@ footer {
 
 footer p {
     margin: 0.5rem 0;
-    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 16px;
 }
 
 footer a {
-    color: #aaffaa; /* Cor para o link do e-mail */
+    color: #aaffaa;
     text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+    text-decoration: underline;
 }
