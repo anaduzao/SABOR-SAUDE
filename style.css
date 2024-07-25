@@ -19,15 +19,21 @@ header h1 {
     margin: 0;
 }
 
+header h1 img {
+    max-width: 150px; /* Ajuste o tamanho da imagem do logo conforme necessário */
+    height: auto;
+}
+
 header nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: center;
+    margin-top: 1rem; /* Aumenta a margem superior dos itens do menu */
 }
 
 header nav ul li {
-    margin: 0 15px; /* Aumentado o espaçamento entre itens */
+    margin: 0 20px; /* Aumenta a margem lateral dos itens do menu */
 }
 
 header nav ul li a {
@@ -145,5 +151,5 @@ footer {
 }
 
 footer p {
-    margin: 0.5rem 0;
+    margin: 0;
 }
