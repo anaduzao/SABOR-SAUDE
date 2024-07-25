@@ -13,6 +13,7 @@ header {
     color: white;
     padding: 1.5rem; /* Aumentado o padding */
     text-align: center;
+    display: flex;
 }
 
 header h1 {
