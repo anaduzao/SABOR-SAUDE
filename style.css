@@ -1,14 +1,9 @@
 /* Estilos gerais para o corpo do texto */
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #d6cdcd;
-    display: flex;
-    flex-direction: column;
     line-height: 1.6;
 }
 
@@ -24,21 +19,15 @@ header h1 {
     margin: 0;
 }
 
-header h1 img {
-    max-width: 150px; /* Ajuste o tamanho da imagem do logo conforme necessário */
-    height: auto;
-}
-
 header nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: center;
-    margin-top: 1rem; /* Aumenta a margem superior dos itens do menu */
 }
 
 header nav ul li {
-    margin: 0 20px; /* Aumenta a margem lateral dos itens do menu */
+    margin: 0 15px; /* Aumentado o espaçamento entre itens */
 }
 
 header nav ul li a {
@@ -49,9 +38,7 @@ header nav ul li a {
 
 /* Estilo para o conteúdo principal */
 main {
-    flex: 1;
     padding: 2.5rem; /* Aumentado o padding */
-    padding-bottom: 4rem; /* Adicionado padding para espaço inferior */
 }
 
 /* Estilo para a seção Sobre */
@@ -158,4 +145,14 @@ footer {
 
 footer p {
     margin: 0.5rem 0;
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+footer a {
+    color: #aaffaa; /* Cor para o link do e-mail */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
 }
