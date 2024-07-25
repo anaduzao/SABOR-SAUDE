@@ -87,7 +87,7 @@ form button:hover {
 }
 
 .imagem-texto img {
-    max-width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    max-width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
     height: auto;
     border-radius: 5px; /* Borda arredondada para a imagem */
 }
