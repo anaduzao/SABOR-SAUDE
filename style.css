@@ -78,6 +78,26 @@ form button:hover {
     background-color: #45a049;
 }
 
+.imagem-texto {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    margin: 20px 0;
+}
+
+.imagem-texto img {
+    max-width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 5px; /* Borda arredondada para a imagem */
+}
+
+.imagem-texto p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
 footer {
     background-color: #234f24;
     color: white;
