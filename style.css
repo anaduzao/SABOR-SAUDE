@@ -1,10 +1,13 @@
+/* Estilos gerais para o corpo do texto */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #d6cdcd;
+    line-height: 1.6;
 }
 
+/* Estilo para o cabeçalho */
 header {
     background-color: #234f24;
     color: white;
@@ -12,27 +15,51 @@ header {
     text-align: center;
 }
 
-nav ul {
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-nav ul li {
+header nav ul li {
     margin: 0 10px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
+/* Estilo para o conteúdo principal */
 main {
     padding: 2rem;
 }
 
+/* Estilo para a seção Sobre */
+#sobre {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#sobre h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Estilo para a seção Produto */
 .produto {
     border: 1px solid #ddd;
     margin: 1rem 0;
@@ -42,12 +69,39 @@ main {
 }
 
 .produto img {
-    max-width: 100%;
+    width: 200px;
     height: auto;
     display: block;
     margin-bottom: 1rem;
 }
 
+.produto p {
+    font-size: 20px;
+}
+
+/* Estilo para a imagem e texto principais */
+.imagem-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Ajustado para um espaço mais consistente */
+    margin: 20px 0;
+}
+
+.imagem-texto img {
+    max-width: 300px; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+.imagem-texto p {
+    margin: 0;
+    font-size: 18px; /* Ajustado para ficar consistente */
+    line-height: 1.5;
+    text-align: center; /* Centralizado o texto */
+}
+
+/* Estilo para o formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -78,132 +132,7 @@ form button:hover {
     background-color: #45a049;
 }
 
-/* Estilos gerais para o corpo do texto */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilo para o cabeçalho */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Estilo para o conteúdo principal */
-main {
-    padding: 20px;
-}
-
-#sobre {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Estilo para a seção Sobre */
-#sobre h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-#sobre p {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 15px;
-}
-
 /* Estilo para o rodapé */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-}
-
-
-.imagem-texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px; 
-    margin: 20px 0;
-}
-
-.imagem-texto img {
-    max-width: 300px; 
-    height: auto;
-    border-radius: 5px; 
-}
-
-.imagem-texto p {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-.texto-1 p {
-    max-width: 800px; 
-    margin-top: 20px;
-}
-
-.texto-1 p { 
-    margin: 1rem 4;
-}
-
-.texto-1 p {
-    color: #000000; 
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.produto img {
-    width: 200px; 
-    height: auto; 
-}
-
-.produto p {
-    font-size: 20px; 
-}
-
-.produto {
-    background-color: #7e7e7e; 
-    padding: 15px; 
-    margin-bottom: 20px; 
-    border-radius: 8px; 
-}
-
-
 footer {
     background-color: #234f24;
     color: white;
