@@ -99,7 +99,18 @@ form button:hover {
 }
 
 .texto-1 p {
-    align-items: center;
+    max-width: 800px; /* Limita a largura máxima do texto */
+    margin-top: 20px;
+}
+
+.texto-1 p { 
+    margin: 1rem 0;
+}
+
+.texto-1 p {
+    color: #4CAF50; /* Cor do link */
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer {
