@@ -108,7 +108,7 @@ form button:hover {
 }
 
 .texto-1 p {
-    color: #4CAF50; /* Cor do link */
+    color: #000000; /* Cor do link */
     text-decoration: none;
     font-weight: bold;
 }
